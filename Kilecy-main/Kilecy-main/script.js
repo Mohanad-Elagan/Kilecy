@@ -13,7 +13,7 @@ $(function() {
 
 $(document).ready(function() {
     $(window).scroll(function() {
-        if ($(document).attr('title') == "Climate Change" || $(document).attr('title') == "About Us") {
+        if ($(document).attr('title') == "Climate Change") {
 
         } else if ($(window).scrollTop() > 50) {
             $('.title_div').css('background', 'rgba(0, 0, 0, 0.7)');
