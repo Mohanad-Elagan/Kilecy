@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us</title>
+  <link rel="shortcut icon" href="pics\about-us.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" href="style_about.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_article.css">
+
+  <script src="script.js"></script>
+
+
+</head>
+
+<body class="about fade-in">
+
+  <nav role='navigation' id="nav">
+    <a data-page="home" class="" href="index.php">Home</a>
+    <a data-page="solution" class="" href="solution.php">Solution</a>
+    <a data-page="survey" class="" href="survey.php">Survey</a>
+    <a data-page="about" class="active" href="about.php">About</a>
+  </nav>
+
+  <div id="title_div_homepage">
+    <img src="pics\Logo.png" alt="Kilecy" style="background: rgba(255, 255, 255, 0.5); float: none; border-radius: 15px; margin: 20px;">
+    <h1 id="title" class="title_homepage">ABOUT US</h1>
+  </div>
+
+  <script>
+    window.scrollBy(0, 1);
+    window.scrollBy(0, -1);
+  </script>
+
+  <div class="card" style="
+    margin-left: calc(100% / 5);">
+    <img class="card-img-top" src="Elagan.jpg" alt="Mohannad Elagan">
+    <div class="card-body">
+      <h4 class="card-title">Mohanad Elagan</h4>
+      <p class="card-text">Web-Developer</p>
+    </div>
+  </div>
+
+  <div class="card" style="
+    margin-left: calc(100% / 7);">
+    <img id="img_mikhael" class="card-img-top" src="pics\mikhael.jpg" alt="Mikhael Mounay">
+    <div class="card-body">
+      <h4 class="card-title">Mikhael Mounay</h4>
+      <p class="card-text">Web-Developer</p>
+    </div>
+  </div>
+
+  <br><br>
+
+  <div class="card" style="
+    margin-left: calc(100% / 15);">
+    <img class="card-img-top" src="omar.jpg" alt="Omar Maher" style="width: 300px; height: 299px;">
+    <div class="card-body">
+      <h4 class="card-title">Omar Maher</h4>
+      <p class="card-text">Content</p>
+    </div>
+  </div>
+
+  <div class="card" style="
+    margin-left: calc(100% / 15);">
+    <img class="card-img-top" src="Ahmed.jpg" alt="Ahmed El-Sheikh" style="width: 300px; height: 299px;">
+    <div class="card-body">
+      <h4 class="card-title">Ahmed El-Sheikh</h4>
+      <p class="card-text">Content</p>
+    </div>
+  </div>
+
+  <div class="card" style="
+    margin-left: calc(100% / 15);">
+    <img class="card-img-top" src="azab.jpg" alt="Mohammed El-Azab" style="width: 300px; height: 299px;">
+    <div class="card-body">
+      <h4 class="card-title">Mohammed El-Azab</h4>
+      <p class="card-text">Content</p>
+    </div>
+  </div>
+
+</body>
+
+</html>
