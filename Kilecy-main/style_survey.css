@@ -1,0 +1,65 @@
+table {
+    position: relative;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label {
+    font-family: "Open Sans";
+    font-size: larger;
+    margin-right: 50px;
+}
+
+input {
+    height: 15px;
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+}
+
+textarea {
+    margin: 10px;
+    padding: 5px;
+    resize: none;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel],
+textarea {
+    font-size: 12pt;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #915fa59c;
+    color: white;
+    border: 3px solid #b9a2a6;
+    border-radius: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=tel] {
+    height: 25px;
+}
+
+.center {
+    text-align: left;
+}
+
+input[type=submit] {
+    background-color: #f4511e;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 25px;
+    margin-left: 240px;
+    opacity: 0.9;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}

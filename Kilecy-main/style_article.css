@@ -1,0 +1,81 @@
+article {
+    font-family: "Times New Roman", Times, serif;
+    margin: 20px;
+    padding: 10px;
+    color: rgb(231, 231, 231);
+}
+
+article.solution {
+    color: #ccc5b9;
+}
+
+h2 {
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #cbf3f0;
+    font-size: 22pt;
+    text-shadow: rgb(49, 49, 49) 2px 2px;
+    margin-left: 20px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+
+.p_introductory {
+    margin-left: 40px;
+    font-size: 16pt;
+}
+
+h3 {
+    display: inline-block;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+p {
+    margin-left: 40px;
+    text-align: justify;
+    text-justify: inter-word;
+    display: inline;
+    font-size: 14pt;
+    letter-spacing: 0.5px;
+}
+
+.tag {
+    opacity: 0;
+    transform: translate(0, 10vh);
+    transition: all 2s;
+}
+
+.tag.visible {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+sub {
+    vertical-align: sub;
+}
+
+.no_margin_left {
+    margin-left: 0px;
+}
+
+.margin_left {
+    margin-left: 20px;
+}
+
+.fade-in {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
